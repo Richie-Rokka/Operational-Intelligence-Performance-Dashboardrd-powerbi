@@ -23,11 +23,11 @@ This leads to:
 ## 🧱 Data Model
 A **star schema** was implemented:
 
-- **Fact Table:** SalesFact  
+- **Fact Table:** Sales  
 - **Dimension Tables:**  
-  - ProductDim  
-  - CustomerDim  
-  - WarehouseDim  
+  - Product  
+  - Customer  
+  - Warehouse 
   - Calendar  
 
 This ensures:
