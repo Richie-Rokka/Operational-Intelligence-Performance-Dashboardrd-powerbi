@@ -3,37 +3,50 @@
 ## 🚀 Overview
 This project delivers an end-to-end Business Intelligence solution using Power BI to analyze **sales performance, operational efficiency, and revenue risk drivers**.  
 
-The dashboard integrates sales, inventory, and logistics data to provide actionable insights for decision-makers.
+The dashboard integrates sales, inventory, and logistics data to provide actionable insights for decision-makers and highlight opportunities to improve revenue and operational performance.
 
 ---
 
 ## 🎯 Business Problem
 Organizations often lack a unified view of:
-- Revenue performance
-- Inventory inefficiencies (stockouts)
-- Delivery performance issues
+- Revenue performance  
+- Inventory inefficiencies (stockouts)  
+- Delivery performance issues  
 
-This leads to:
-- Lost sales opportunities
-- Poor operational decisions
-- Limited visibility into growth drivers
+This results in:
+- Lost sales opportunities  
+- Inefficient inventory allocation  
+- Poor operational decision-making  
 
 ---
 
 ## 🧱 Data Model
-A **star schema** was implemented:
+A **star schema data model** was implemented to ensure scalability and performance.
 
-- **Fact Table:** Sales  
+- **Fact Table:** `SalesFact`  
 - **Dimension Tables:**  
-  - Product  
-  - Customer  
-  - Warehouse 
-  - Calendar  
+  - `ProductDim`  
+  - `CustomerDim`  
+  - `WarehouseDim`  
+  - `Calendar`  
 
-This ensures:
-- Efficient querying  
-- Accurate aggregations  
-- Scalable analytics  
+### 🔧 Key Design Considerations
+- One-to-many relationships between fact and dimensions  
+- Centralized date table for time intelligence  
+- Optimized aggregation for KPI calculations  
+
+---
+
+## ⚙️ Technical Implementation
+- Built using **Power BI Desktop** with Power Query for data transformation  
+- Developed **DAX measures** for KPI calculations:
+  - Revenue, Profit, Margin  
+  - Stockout Rate & Lost Sales  
+  - Late Delivery Rate  
+  - Custom **Month-over-Month (MoM) Growth** logic  
+- Implemented **time intelligence functions** (e.g., `PREVIOUSMONTH`)  
+- Applied **conditional formatting** and KPI indicators (▲ ▼) for trend visibility  
+- Designed interactive filtering using slicers (Month, Region, Category)  
 
 ---
 
@@ -47,6 +60,7 @@ This ensures:
 - Late Delivery Rate  
 
 ---
+
 
 ## 📈 Dashboard Features
 
