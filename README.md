@@ -17,3 +17,22 @@ This leads to:
 - Lost sales opportunities
 - Poor operational decisions
 - Limited visibility into growth drivers
+
+---
+
+## 🧱 Data Model
+A **star schema** was implemented:
+
+- **Fact Table:** SalesFact  
+- **Dimension Tables:**  
+  - ProductDim  
+  - CustomerDim  
+  - WarehouseDim  
+  - Calendar  
+
+This ensures:
+- Efficient querying  
+- Accurate aggregations  
+- Scalable analytics  
+
+---
