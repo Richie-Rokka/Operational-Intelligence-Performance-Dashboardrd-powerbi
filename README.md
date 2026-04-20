@@ -61,69 +61,57 @@ A **star schema data model** was implemented to ensure scalability and performan
 
 ---
 
-
 ## 📈 Dashboard Features
 
-### 🔹 Executive KPIs
-Quick snapshot of business performance:
-- Revenue, Profit, Margin
-- Growth trends (MoM ▲)
-- Operational risks (Stockouts, Late Deliveries)
+### 🔹 Executive KPI Layer
+- Revenue, Profit, and Margin overview  
+- Growth trends using MoM indicators  
+- Operational risk indicators (Stockouts, Late Deliveries)  
 
 ---
 
 ### 🔹 Sales Trend Analysis
-- Monthly revenue trend
-- Previous month comparison
-- Growth momentum tracking
+- Monthly revenue trend  
+- Previous month comparison  
+- Performance momentum tracking  
 
 ---
 
 ### 🔹 Regional Performance
-- Revenue contribution by region
-- Identification of top-performing markets
+- Revenue by region  
+- Identification of top-performing markets  
 
 ---
 
 ### 🔹 Product Performance
-- Revenue by product category
-- Identification of high-dependency categories
+- Revenue by product category  
+- Detection of high-dependency categories  
 
 ---
 
 ### 🔹 Logistics & Delivery Analysis
-- Late deliveries by region
-- Operational bottleneck identification
+- Late deliveries by region  
+- Identification of logistics bottlenecks  
 
 ---
 
 ## 🔍 Key Insights
-
 - Revenue increased by **32.6% month-over-month**, indicating strong growth momentum  
 - High stockout rates in key regions reveal **revenue leakage due to supply constraints**  
-- Revenue is heavily concentrated in a few categories, indicating **portfolio dependency risk**  
-- South and West regions show elevated late deliveries, suggesting **logistics inefficiencies**
+- Revenue is concentrated in a few product categories, indicating **portfolio dependency risk**  
+- South and West regions show elevated late deliveries, suggesting **logistics inefficiencies**  
 
 ---
 
 ## 💡 Recommendations
-
-- Improve inventory allocation in high-demand regions  
-- Optimize supply chain processes to reduce stockouts  
+- Optimize inventory allocation in high-demand regions  
+- Improve supply chain processes to reduce stockouts  
 - Address logistics bottlenecks in high-delay regions  
 - Diversify product portfolio to reduce dependency risk  
 
 ---
 
-## 🛠️ Tools Used
-- Power BI  
-- DAX  
-- Power Query  
-- Excel  
-
----
-
-## 📸 Dashboard
+## 📸 Dashboard Preview
 
 <img width="470" height="266" alt="PBI Dashboard" src="https://github.com/user-attachments/assets/18a054f2-8f48-4bdd-800e-26cac262b0ca" />
 
