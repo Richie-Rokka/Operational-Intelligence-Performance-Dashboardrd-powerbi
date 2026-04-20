@@ -108,3 +108,22 @@ Quick snapshot of business performance:
 - Excel  
 
 ---
+
+## 📸 Dashboard
+
+<img width="470" height="266" alt="PBI Dashboard" src="https://github.com/user-attachments/assets/18a054f2-8f48-4bdd-800e-26cac262b0ca" />
+
+
+---
+
+## 📚 Key Learnings
+- Importance of data modeling (star schema)
+- Handling time intelligence with limited data (MoM analysis)
+- Translating data into actionable business insights
+- Designing executive-level dashboards
+
+---
+
+## 🔗 Author
+**[Richard A Oketade]**  
+Data Analyst | BI | Marketing & Operations Analytics
