@@ -120,13 +120,42 @@ A **star schema data model** was implemented to ensure scalability and performan
 ## 📁 Repository Structure
 
 sales-logistics-revenue-risk-dashboard-powerbi/
+
 ├── README.md
 
 ├── powerbi/
+
 │ └── sales-logistics-revenue-risk-dashboard.pbix
 
 ├── screenshots/
+
 │ └── dashboard-overview.png
 
 └── data/
+
 └── sample-data.xlsx
+
+
+---
+
+## 🛠️ Tools & Technologies
+- Power BI  
+- DAX  
+- Power Query  
+- Excel  
+
+---
+
+## 📚 Key Learnings
+- Designing scalable data models using star schema  
+- Implementing time intelligence with limited data (MoM analysis)  
+- Translating business problems into data-driven insights  
+- Building executive-level dashboards for decision-making  
+
+---
+
+## 🔗 Author
+**Richard A Oketade**  
+Data Analyst | Business Intelligence | Marketing & Operations Analytics  
+
+🔗 LinkedIn: https://www.linkedin.com/in/abodunrin-oketade-579aa331
