@@ -125,5 +125,5 @@ Quick snapshot of business performance:
 ---
 
 ## 🔗 Author
-**[Richard A Oketade]**  
+**Richard A Oketade**  
 Data Analyst | BI | Marketing & Operations Analytics
