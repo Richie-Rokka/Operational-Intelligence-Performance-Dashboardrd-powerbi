@@ -1,105 +1,176 @@
-# 📊 Sales, Logistics & Revenue Risk Dashboard (Power BI)
+# 📊 Operational Intelligence & Performance Dashboard
 
 ## 🚀 Overview
-This project delivers an end-to-end Business Intelligence solution using Power BI to analyze **sales performance, operational efficiency, and revenue risk drivers**.  
+This project delivers an end-to-end Business Intelligence identifying **Revenue Leakage, Delivery Risks, and Operational Bottlenecks, Analyzing operational efficiency, logistics performance, revenue trends, and business KPIs using Power BI.**.  
 
 The dashboard integrates sales, inventory, and logistics data to provide actionable insights for decision-makers and highlight opportunities to improve revenue and operational performance.
 
----
-
-## 🎯 Business Problem
-Organizations often lack a unified view of:
-- Revenue performance  
-- Inventory inefficiencies (stockouts)  
-- Delivery performance issues  
-
-This results in:
-- Lost sales opportunities  
-- Inefficient inventory allocation  
-- Poor operational decision-making  
+![Operational Intelligence Dashboard](operations_dashboard.png)
 
 ---
 
-## 🧱 Data Model
-A **star schema data model** was implemented to ensure scalability and performance.
+## ❗ Business Problem
 
-- **Fact Table:** `Sales`  
-- **Dimension Tables:**  
-  - `Product`  
-  - `Customer`  
-  - `Warehouse`  
-  - `Calendar`  
+Organizations often struggle to connect:
+- Sales performance
+- Logistics operations
+- Inventory risks
+- Delivery efficiency
+- Revenue impact
 
-### 🔧 Key Design Considerations
-- One-to-many relationships between fact and dimensions  
-- Centralized date table for time intelligence  
-- Optimized aggregation for KPI calculations  
+As a result:
+- stockouts increase
+- late deliveries rise
+- revenue leakage occurs
+- operational inefficiencies go undetected
 
----
-
-## ⚙️ Technical Implementation
-- Built using **Power BI Desktop** with Power Query for data transformation  
-- Developed **DAX measures** for KPI calculations:
-  - Revenue, Profit, Margin  
-  - Stockout Rate & Lost Sales  
-  - Late Delivery Rate  
-  - Custom **Month-over-Month (MoM) Growth** logic  
-- Implemented **time intelligence functions** (e.g., `PREVIOUSMONTH`)  
-- Applied **conditional formatting** and KPI indicators (▲ ▼) for trend visibility  
-- Designed interactive filtering using slicers (Month, Region, Category)  
+This project was designed to provide a centralized operational intelligence system for monitoring business performance and identifying operational risks before they impact revenue.
 
 ---
 
-## 📊 Key Metrics
-- Total Revenue  
-- Total Profit  
-- Gross Margin %  
-- Stockout Rate  
-- Lost Sales  
-- Month-over-Month (MoM) Growth %  
-- Late Delivery Rate  
+## 📈 Executive Insights
+
+- 🚚 Late deliveries negatively impacted fulfillment efficiency
+- 📉 Stock availability gaps increased operational risk exposure
+- 💰 Revenue concentration identified among top-performing categories
+- ⚠️ Logistics delays correlated with declining operational performance
+- 📦 Inventory inefficiencies contributed to fulfillment bottlenecks
 
 ---
 
-## 📈 Dashboard Features
+## ❓ Business Questions Answered
 
-### 🔹 Executive KPI Layer
-- Revenue, Profit, and Margin overview  
-- Growth trends using MoM indicators  
-- Operational risk indicators (Stockouts, Late Deliveries)  
-
----
-
-### 🔹 Sales Trend Analysis
-- Monthly revenue trend  
-- Previous month comparison  
-- Performance momentum tracking  
+- Which products and regions generate the highest revenue?
+- Where are logistics delays impacting operational efficiency?
+- Which operational risks threaten revenue performance?
+- How do delivery issues affect fulfillment KPIs?
+- Which inventory gaps create stockout risks?
+- What operational areas require optimization?
 
 ---
 
-### 🔹 Regional Performance
-- Revenue by region  
-- Identification of top-performing markets  
+## 📂 Repository Structure
+
+```text
+├── dashboard/
+│   ├── operations_dashboard.png
+├── data/
+│   └── operational_intellingence_dataset.xlsx
+├── Operatons_Intellingence_Dashboard.pbix
+└── README.md
+```
 
 ---
 
-### 🔹 Product Performance
-- Revenue by product category  
-- Detection of high-dependency categories  
+# 6️⃣ Dataset Overview
+
+```markdown
+## 🗂️ Dataset Overview
+
+The dataset contains operational and sales-related records including:
+
+| Table / Data Area | Description |
+|---|---|
+| Sales Data | Revenue, orders, product performance |
+| Logistics Data | Delivery timelines, fulfillment metrics |
+| Inventory Data | Stock levels, availability, shortages |
+| Operational KPIs | Risk indicators and performance metrics |
+```
 
 ---
 
-### 🔹 Logistics & Delivery Analysis
-- Late deliveries by region  
-- Identification of logistics bottlenecks  
+## 🔄 Analytics Workflow
+
+```text
+Raw Operational Data
+        ↓
+Power Query ETL & Cleaning
+        ↓
+Data Modeling & Relationships
+        ↓
+DAX KPI Calculations
+        ↓
+Interactive Power BI Dashboards
+        ↓
+Operational & Revenue Insights
+```
+---
+
+
+## 📊 Dashboard Overview
+
+This dashboard integrates:
+- Sales performance monitoring
+- Logistics operational tracking
+- Revenue analysis
+- Operational risk visibility
+- KPI reporting
+
+into a centralized business intelligence solution.
 
 ---
 
+## 📊 Dashboard Walkthrough
+
+### Executive Operations Dashboard
+
+Tracks:
+- Revenue performance
+- Order fulfillment
+- Logistics KPIs
+- Operational efficiency
+- Inventory & delivery performance
+- Risk indicators
+
+Key focus:
+- centralized operational visibility
+- business performance monitoring
+- operational decision support
+
+---
+
+## 🖼️ Dashboard Preview
+
+![Operational Intelligence Dashboard](operations_dashboard.png)
+
+---
 ## 🔍 Key Insights
-- Revenue increased by **32.6% month-over-month**, indicating strong growth momentum  
-- High stockout rates in key regions reveal **revenue leakage due to supply constraints**  
-- Revenue is concentrated in a few product categories, indicating **portfolio dependency risk**  
-- South and West regions show elevated late deliveries, suggesting **logistics inefficiencies**  
+
+### 🚚 Logistics Delays Impact Fulfillment Efficiency
+Late deliveries and shipping delays reduced operational performance and increased fulfillment risk exposure.
+
+---
+
+### 📉 Inventory Gaps Increase Revenue Risk
+Stock shortages and inventory inconsistencies created fulfillment bottlenecks and potential revenue leakage.
+
+---
+
+### 💰 Revenue Concentration Identified
+A small group of products/categories contributed disproportionately to total revenue generation.
+
+---
+
+### ⚠️ Operational Risks Are Interconnected
+Sales performance, logistics efficiency, and inventory availability were strongly connected across operational workflows.
+
+---
+
+### 📦 Operational Visibility Improves Decision-Making
+Centralized KPI monitoring improves the ability to detect operational issues before they escalate.
+
+---
+
+## 💼 Business Impact
+
+This solution enables organizations to:
+
+- 📊 Monitor operational KPIs in real time
+- 🚚 Reduce logistics inefficiencies
+- 📉 Minimize stockout risks
+- 💰 Improve revenue visibility
+- ⚠️ Identify operational bottlenecks early
+- 📦 Support data-driven operational planning
 
 ---
 
@@ -111,51 +182,38 @@ A **star schema data model** was implemented to ensure scalability and performan
 
 ---
 
-## 📸 Dashboard Preview
+## 🧰 Tools & Technologies
 
-<img width="472" height="267" alt="sales-logistics-revenue-risk-dashboard" src="https://github.com/user-attachments/assets/33a27447-3fb4-4ad4-a824-ae872c00bbf4" />
-
----
-
-## 📁 Repository Structure
-
-sales-logistics-revenue-risk-dashboard-powerbi/
-
-├── README.md
-
-├── powerbi/
-
-│ └── sales-logistics-revenue-risk-dashboard.pbix
-
-├── screenshots/
-
-│ └── dashboard-overview.png
-
-└── data/
-
-└── sample-data.xlsx
-
+- Power BI → Dashboard development
+- Power Query → ETL & data cleaning
+- DAX → KPI calculations & business logic
+- Excel / CSV → Data source
+- GitHub → Version control & project documentation
 
 ---
 
-## 🛠️ Tools & Technologies
-- Power BI  
-- DAX  
-- Power Query  
-- Excel  
+## 🚀 Future Improvements
+
+- Add predictive delivery risk modeling
+- Implement inventory forecasting
+- Build supplier performance analysis
+- Add anomaly detection for operational risks
+- Deploy dashboard to Power BI Service
 
 ---
 
-## 📚 Key Learnings
-- Designing scalable data models using star schema  
-- Implementing time intelligence with limited data (MoM analysis)  
-- Translating business problems into data-driven insights  
-- Building executive-level dashboards for decision-making  
+## 🧾 Final Takeaway
+
+> Operational inefficiencies are not isolated problems.
+
+> Sales performance, logistics execution, inventory availability, and fulfillment efficiency are deeply connected — and organizations that monitor them together gain stronger operational visibility and faster decision-making capabilities.
 
 ---
 
 ## 🔗 Author
+
 **Richard A Oketade**  
+
 Data Analyst | Business Intelligence | Marketing & Operations Analytics  
 
-🔗 LinkedIn: https://www.linkedin.com/in/abodunrin-oketade-579aa331
+🔗 LinkedIn: https://www.linkedin.com/in/abodunrin-oketade
