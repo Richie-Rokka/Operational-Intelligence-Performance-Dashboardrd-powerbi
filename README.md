@@ -62,11 +62,9 @@ This project was designed to provide a centralized operational intelligence syst
 
 ---
 
-# 6️⃣ Dataset Overview
-
-```markdown
 ## 🗂️ Dataset Overview
 
+```
 The dataset contains operational and sales-related records including:
 
 | Table / Data Area | Description |
