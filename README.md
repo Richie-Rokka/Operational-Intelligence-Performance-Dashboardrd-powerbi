@@ -68,11 +68,12 @@ This project was designed to provide a centralized operational intelligence syst
 The dataset contains operational and sales-related records including:
 
 | Table / Data Area | Description |
-|---|---|
+|------------|--------------------------------------|
 | Sales Data | Revenue, orders, product performance |
 | Logistics Data | Delivery timelines, fulfillment metrics |
 | Inventory Data | Stock levels, availability, shortages |
 | Operational KPIs | Risk indicators and performance metrics |
+
 ```
 
 ---
